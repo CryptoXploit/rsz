@@ -8,7 +8,7 @@ The script parse the data of rawtx to fetch all the inputs in the transaction an
  If txid is given, instead of rawtx then blockchain API is used to fetch the details of rawtx and then R,S,Z calculation starts. _**[Internet required]**_
 
 ## Requirements
-The required library (3 files) can be obtained from the location https://github.com/iceland2k14/secp256k1
+Python 3 and working internet connection
 
 ## Math
 ![image](https://github.com/iceland2k14/rsz/assets/75991805/b90164c8-a361-428b-b3d5-a6044782c59e)
