@@ -8,13 +8,16 @@ The script parse the data of rawtx to fetch all the inputs in the transaction an
  If txid is given, instead of rawtx then blockchain API is used to fetch the details of rawtx and then R,S,Z calculation starts. _**[Internet required]**_
 
 ## Requirements
-Python 3 and working internet connection
+1.Python 3 
+2.gmpy2
+3.working internet connection
 
 ## Math
 ![image](https://github.com/iceland2k14/rsz/assets/75991805/b90164c8-a361-428b-b3d5-a6044782c59e)
 ![image](https://github.com/iceland2k14/rsz/assets/75991805/a3dd36ed-3eb4-4a7b-ae3e-44968e34631f)
 
 ## Usage: Python 3
+```pip3 install gmpy2```
 ```python getz_input.py```
 
 ## Run
